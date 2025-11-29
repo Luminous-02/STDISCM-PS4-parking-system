@@ -1,0 +1,10 @@
+com/campusroom/catalog/model/Room.class
+com/campusroom/catalog/repository/RoomRepository.class
+com/campusroom/catalog/model/Seat.class
+com/campusroom/catalog/service/RoomService.class
+com/parkingsystem/catalog/ParkingCatalogApplication.class
+com/campusroom/catalog/model/RoomType.class
+com/campusroom/catalog/repository/SeatRepository.class
+com/campusroom/catalog/config/DataInitializer.class
+com/campusroom/catalog/controller/RoomController.class
+com/campusroom/catalog/controller/TestController.class
