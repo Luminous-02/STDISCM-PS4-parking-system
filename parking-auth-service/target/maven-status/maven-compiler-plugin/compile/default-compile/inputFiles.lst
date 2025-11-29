@@ -1,0 +1,13 @@
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/dto/LoginRequest.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/model/User.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/config/SecurityConfig.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/service/AuthService.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/model/UserRole.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/config/DataInitializer.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/repository/RefreshTokenRepository.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/dto/LoginResponse.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/model/RefreshToken.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/config/JwtUtil.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/repository/UserRepository.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/controller/AuthController.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/service/UserService.java
