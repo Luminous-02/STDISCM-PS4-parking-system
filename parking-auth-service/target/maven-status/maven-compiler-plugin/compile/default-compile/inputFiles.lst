@@ -11,3 +11,4 @@
 /Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/repository/UserRepository.java
 /Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/controller/AuthController.java
 /Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/service/UserService.java
+/Users/mark/Documents/GitHub/STDISCM-PS4-parking-system/parking-auth-service/src/main/java/com/parkingsystem/auth/ParkingAuthApplication.java

@@ -11,3 +11,4 @@ com/parkingsystem/auth/dto/LoginRequest.class
 com/parkingsystem/auth/model/RefreshToken.class
 com/parkingsystem/auth/config/DataInitializer.class
 com/parkingsystem/auth/service/UserService.class
+com/parkingsystem/auth/ParkingAuthApplication.class

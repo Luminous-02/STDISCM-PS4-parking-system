@@ -2,25 +2,51 @@
 
 Distributed Parking System with Fault Tolerance for P4
 
-## System Architecture
+## 🚗 System Overview
+
+A microservices-based parking management system demonstrating distributed fault tolerance with:
 
 - **parking-auth-service** - JWT authentication & authorization
 - **parking-catalog-service** - Parking lots & spots management
-- **parking-reservation-service** - Parking spot reservations
-- **parking-profile-service** - User profiles & management
-- **parking-reporting-service** - Reservation history & reports
-- **api-gateway** - Central routing with JWT validation
 - **frontend-react** - React-based web interface
 
-## Quick Start
+## 🚨 Current Issues & Solutions
 
-1. Run `docker-compose up -d` to start all services
-2. Access frontend at `http://localhost:3000`
-3. API endpoints available on respective ports
+### Issue 1: Database Connection (UnknownHostException: postgres)
 
-## Fault Tolerance Features
+**Problem:** Services can't connect to PostgreSQL when running outside Docker
+**Solution:** Update application.properties to use `localhost` instead of `postgres`
 
-- Independent microservices
-- Health checks & graceful degradation
-- Circuit breaker patterns
-- Distributed session management
+### Issue 2: Frontend Missing Files
+
+**Problem:** `index.html` not found in public folder
+**Solution:** Ensure all frontend files are properly structured
+
+## 🛠️ Quick Setup Instructions
+
+### Prerequisites
+
+- Java 21
+- Maven 3.9+
+- Node.js 18+
+- Docker & Docker Compose
+
+### Method 1: Docker Compose (Recommended)
+
+```bash
+# 1. Start only database and Redis
+docker-compose up -d postgres redis
+
+# 2. Verify database is running
+docker ps
+# Should see: postgres and redis containers
+
+# 3. Update application properties for local development
+# Change in parking-auth-service/src/main/resources/application.properties:
+# spring.datasource.url=jdbc:postgresql://localhost:5432/campus_parking_system?currentSchema=auth
+#
+# Change in parking-catalog-service/src/main/resources/application.properties:
+# spring.datasource.url=jdbc:postgresql://localhost:5432/campus_parking_system?currentSchema=catalog
+
+# 4. Start services manually in separate terminals
+```
